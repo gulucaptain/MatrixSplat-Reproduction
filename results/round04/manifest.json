@@ -1,0 +1,20 @@
+{
+  "args": {
+    "seeds": 5,
+    "steps": 240,
+    "device": "mps"
+  },
+  "elapsed_seconds": 14.572862374945544,
+  "torch": "2.15.0",
+  "scope": "synthetic fixed geometry; appearance/opacity/visibility/scale/background training only",
+  "source_sha256": {
+    "tiled.py": "5a78a78782d760d751afa4ea5e5c5f4f07af7185c77381d83c827e75de08da7a",
+    "render.py": "99de6d816f0e5811689d034b3ec9ee4691805fbe6c6b188d36f7529cbb58a888",
+    "io.py": "218478e054fc07edeb6fc426edc602aa92776400165dd06aac29715170d67dd0",
+    "__init__.py": "13b064d2e0e2c8a1fc51aa2b301da575361332b911384b381a91de0dbb93d36d",
+    "experiment.py": "b9910bce6967713c9fd891bc4db0e18f9cba66c45e1499da53790840b841c864",
+    "scenes.py": "9394ea0213e98263cf7be0c21ca8b204c2566725c59eaecf64d4c835ef5cf32a",
+    "train.py": "59e9fa4c2cf52480a96469e53f6cbf8fe387b063feb159d42124e4a87626438c",
+    "gpu_experiment.py": "cd212eab304fdeb402bd9989fbc2b458f6645ecd7904386272cf54f59b492349"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "args": {
+    "round": 1,
+    "device": "cpu",
+    "seeds": 3
+  },
+  "torch": "2.15.0",
+  "platform": "macOS-15.7.1-arm64-arm-64bit",
+  "mps": false,
+  "source_sha256": {
+    "render.py": "74fa0f3e98d320179a8122eccc8d90878ab1155cbd69e779f7ccd4261f3ac69d",
+    "__init__.py": "13b064d2e0e2c8a1fc51aa2b301da575361332b911384b381a91de0dbb93d36d",
+    "experiment.py": "b9910bce6967713c9fd891bc4db0e18f9cba66c45e1499da53790840b841c864",
+    "scenes.py": "9394ea0213e98263cf7be0c21ca8b204c2566725c59eaecf64d4c835ef5cf32a"
+  }
+}

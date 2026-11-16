@@ -1,0 +1,20 @@
+{
+  "local_iterations": 5,
+  "paper_reproduction_complete": false,
+  "status": "partial independent local reproduction",
+  "hardware": {
+    "machine": "MacBook Pro",
+    "chip": "Apple M4 Pro",
+    "cpu_cores": 12,
+    "gpu_cores": 16,
+    "unified_memory_gb": 48
+  },
+  "tests_passed": 12,
+  "missing": [
+    "Original NVIDIA CUDA/MMA kernels",
+    "Original dataset training and semantic evaluation",
+    "Official fast-renderer integrations",
+    "Original GPU FPS and profiling tables"
+  ],
+  "repository": "https://github.com/gulucaptain/MatrixSplat-Reproduction"
+}

@@ -1,0 +1,23 @@
+{
+  "seeds": 3,
+  "repeats": 11,
+  "device": "mps",
+  "image_and_gaussians": [
+    [
+      128,
+      256
+    ],
+    [
+      256,
+      1024
+    ]
+  ],
+  "channels": [
+    3,
+    32,
+    128,
+    512
+  ],
+  "training_seeds": 5,
+  "training_steps": 240
+}

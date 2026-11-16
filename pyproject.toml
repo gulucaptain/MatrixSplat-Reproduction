@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "matrixsplat-local"
+version = "0.1.0"
+description = "Independent MatrixSplat mathematical reproduction and Apple GPU adaptation"
+requires-python = ">=3.12"
+dependencies = ["torch", "numpy", "scipy", "matplotlib", "pillow", "plyfile"]
+[project.optional-dependencies]
+dev = ["pytest"]
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]

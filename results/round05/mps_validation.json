@@ -1,0 +1,11 @@
+{
+  "device": "mps",
+  "forward_max_abs_error": 1.227515944168811e-06,
+  "gradient_max_abs_error": {
+    "means": 4.018801397567828e-08,
+    "covariance": 3.338399482410992e-07,
+    "opacity": 2.5867676048049737e-09,
+    "features": 1.724931743447844e-09
+  },
+  "torch": "2.15.0"
+}
